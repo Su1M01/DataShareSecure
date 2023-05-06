@@ -1,20 +1,8 @@
-Exécuter en premier le fichier create_directory.py
-Exécuter ensuite le fichier Public_Key_Manage.py
 
-
-CONSTAT
-
-Lorsque vous essayer d'importer une clé, toutes les clés correspondant au mail renseigné sont importés et ceux qui ne
-correspondent pas sont supprimés.
 
 ###########################
 
 2.3.2 DataShareSecure
-
-Le respect des recommandations précitées vous aideront inévitablement à protéger vos données.
-L’une des recommandations est de chiffrer les données avant l’envoi et de mettre en place une signa-
-ture électronique. Ce qui permettrait aux expéditeurs d’envoyer un courrier confidentiel, authentique
-et intègre. C’est exactement ce à quoi notre solution DataShareSecure concoure.
 
 2.3.2.1 PRESENTATION
 
@@ -59,6 +47,12 @@ exécution permet de :
 clés keyserver.ubuntu.com ;
 • supprimer votre paire de clés ;
 
+CONSTAT
+
+Lorsque vous essayer d'importer une clé, toutes les clés correspondant au mail renseigné sont importés et ceux qui ne
+correspondent pas sont supprimés.
+
+
 3. Sender.py
 
 C’est le fichier à exécuter lorsque vous êtes l’émetteur. Il permet le chiffrement des fichiers que
@@ -70,6 +64,7 @@ les signatures des fichiers originaux pour attester qu’ils proviennent de vous
 C’est le fichier à exécuter lorsque vous êtes le destinataire. Il vous permet de déchiffrer les
 fichiers que vous avez reçus de votre correspondant et de vérifier les signatures attestant de
 l’intégrité des fichiers reçus et de leurs authenticités par la connaissance de l’émetteur.
+
 
 2.3.2.3 FONCTIONNEMENT UTILISATION
 
